@@ -15,3 +15,7 @@
 [React ChartJS](https://react-chartjs-2.js.org/)
 
 `npm i react-chartjs-2`
+
+##
+
+`rm -rf node_modules`
