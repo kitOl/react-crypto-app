@@ -1,8 +1,5 @@
-import { Layout } from "antd";
-import AppHeader from "./components/layout/AppHeader";
-import AppSider from "./components/layout/AppSider";
-import AppContent from "./components/layout/AppContent";
-import CryptoContext, { CryptoContextProvider } from "./context/crypto-context";
+import AppLayout from "./components/layout/AppLayout";
+import { CryptoContextProvider } from "./context/crypto-context";
 
 const layoutStyle = {
   borderRadius: 8,
@@ -13,13 +10,7 @@ const layoutStyle = {
 export default function App() {
   return (
     <CryptoContextProvider>
-      <Layout>
-        <AppHeader />
-        <Layout>
-          <AppSider />
-          <AppContent />
-        </Layout>
-      </Layout>
+      <AppLayout />
     </CryptoContextProvider>
   );
 }
