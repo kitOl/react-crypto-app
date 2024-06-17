@@ -74,7 +74,7 @@ export default function AddAssetForm({ onClose }) {
   }
 
   function onFinish(values) {
-    console.log(values);
+    // console.log(values);
     const newAsset = {
       id: coin.id,
       amount: values.amount,

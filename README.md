@@ -11,3 +11,7 @@
 
 - установка Ant 5
   `npm run dev`
+
+[React ChartJS](https://react-chartjs-2.js.org/)
+
+`npm i react-chartjs-2`
